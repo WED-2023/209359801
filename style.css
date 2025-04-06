@@ -1,7 +1,8 @@
 
 
 body {
-	font-family: "Georgia", serif;
+	direction: ltr;
+	font-family: "chiller", serif;
 	background-image: url("images/Bumi\ chalenge\ Aang.jpg"); /* מציין את מיקום התמונה */
 	background-size: cover; /* מוודא שהתמונה תכסה את כל הרקע */
 	background-position: center; /* ממקם את התמונה במרכז הדף */
@@ -10,18 +11,16 @@ body {
 
   .logo {
 	display: flex;
-	align-items: right;
+	align-items: center;
 	height: 60px;
 	padding-left: 20px;
 	margin-right: auto;
   }
   
   .logo-img {
-	height: 40px;
-	width: 40px;
-	border-radius: 50%;
+	height: 45px;
+	width: 45px;
 	object-fit: cover;
-	margin-right: 10px;
   }
 
   .section {
@@ -31,38 +30,68 @@ body {
   .White-background{
 	max-width: 800px;
 	margin: 0 auto;
-	padding: 30px;
+	padding: 40px;
 	border-radius: 16px;
 	background-color: rgba(255, 255, 255, 0.85);
 	backdrop-filter: blur(3px);
 	box-shadow: 0 8px 24px rgba(0, 0, 0, 0.1);
 	text-align: left;
 	line-height: 1.6;
-	font-size: 16px;
-	color: #333;
+	font-size: 24px;
+	color: black;
   }
   
 
 #menu{
 	position: fixed;
     top: 0;
-    right: 0;
-    left: 0;
+	right: 0;
+	left: 0;
+	height: 60px;
     background-color: green; 
-    z-index: 1000; 
-    padding: 5px 0; 
+    z-index: 1; 
+    padding: 0; 
     text-align: center; 
-    box-shadow: 0 5px 5px rgba(0, 0, 0, 0.1); 
+	display: flex;
+	align-items: center; 
+	justify-content: center; 
 }
 #menu li{
-	display: inline;
-	margin: 0 10px;
+	margin: 0;
+	list-style: none;
+	height: 60%;
 }
 #menu a {
 	text-decoration: none;
+	height: 50px;
+	font-weight: bold;
+	font-size: 30px;
 	color: white;
-	padding: 200px 20px;
+	padding: 40px;
 }
+h2{
+	font-weight: bold;
+	font-size: 60px;
+}
+
+h3{
+	font-weight: bold;
+	font-size: 40px;
+}
+p{
+	font-size: 25px;
+}
+label{
+	font-size: 40px;
+}
+button{
+	font-size: 40px;
+	font-family: "chiller", serif;
+
+}
+
+
+  
 .title-bold-text {
     font-family: Arial, sans-serif; 
     font-size: 24px; 
@@ -104,7 +133,7 @@ body {
 	background-color: #f5f5f5;  
 
 }
-.massage-box-size {
+.message-box-size {
     width: 100%;
     max-width: 500px;
     height: 150px;
@@ -119,18 +148,12 @@ body {
     width: 100%;
     max-width: 500px;
     height: 40px;
-    padding: 10px;
-    font-size: 16px;
-    border: 1px solid #ccc;
-    border-radius: 8px;
+    padding: 5px;
+    font-size: 30px;
+    border: 1px solid black;
+    border-radius: 10px;
     box-sizing: border-box;
 	background-color: lightblue;  
-
 }
 
-.v{
-    display: flex;
-    justify-content: center;  
-    align-items: center;      
-    margin: 0 auto;
-}
+
