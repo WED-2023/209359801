@@ -1,97 +1,82 @@
 
+
+body {
+	font-family: "Georgia", serif;
+	background-image: url("images/Bumi\ chalenge\ Aang.jpg"); /* מציין את מיקום התמונה */
+	background-size: cover; /* מוודא שהתמונה תכסה את כל הרקע */
+	background-position: center; /* ממקם את התמונה במרכז הדף */
+	background-attachment: fixed; /* קובע שהתמונה תישאר במקום כאשר גוללים */
+  }
+
+  .logo {
+	display: flex;
+	align-items: right;
+	height: 60px;
+	padding-left: 20px;
+	margin-right: auto;
+  }
+  
+  .logo-img {
+	height: 40px;
+	width: 40px;
+	border-radius: 50%;
+	object-fit: cover;
+	margin-right: 10px;
+  }
+
+  .section {
+	padding: 100px 20px;
+	text-align: center;
+  }
+  .White-background{
+	max-width: 800px;
+	margin: 0 auto;
+	padding: 30px;
+	border-radius: 16px;
+	background-color: rgba(255, 255, 255, 0.85);
+	backdrop-filter: blur(3px);
+	box-shadow: 0 8px 24px rgba(0, 0, 0, 0.1);
+	text-align: left;
+	line-height: 1.6;
+	font-size: 16px;
+	color: #333;
+  }
+  
+
 #menu{
 	position: fixed;
     top: 0;
     right: 0;
     left: 0;
-    background-color: lightblue; 
+    background-color: green; 
     z-index: 1000; 
-    padding: 0px 0; 
+    padding: 5px 0; 
     text-align: center; 
     box-shadow: 0 5px 5px rgba(0, 0, 0, 0.1); 
 }
 #menu li{
 	display: inline;
-	margin: 0 8px;
+	margin: 0 10px;
 }
 #menu a {
 	text-decoration: none;
 	color: white;
-	padding: 5px 8px;
+	padding: 200px 20px;
 }
 .title-bold-text {
     font-family: Arial, sans-serif; 
     font-size: 24px; 
     font-weight: bold; 
 }
-.logo {
-    float: right; 
-	width: 100px; 
-    height: auto; 
-}
-
-
-
-
-
-
-
-/* קו מרכזי בכותרת*/
-h2 {
-    text-align: center;
-    position: relative;
-    margin: 50px 0;
-    padding: 0 20px;
-}
-
-h2::before, h2::after {
-    content: "";
-    position: absolute;
-    top: 50%;
-    width: 30%; 
-    border-top: 10px solid lightblue;
-}
-
-h2::before {
-    left: 0;
-}
-
-h2::after {
-    right: 0;
-}
-
-
-
 
 
 
 .image {
-    width: 550px; 
+    width: 400px; 
     height: auto; 
 	border: 5px solid #000;
 	margin: 10px;
 }
-
-
-
-.regular-text {
-    font-family: Arial, sans-serif; 
-    font-size: 20px; 
-    font-weight: normal; 
-}
-.big-bold-text {
-    font-family: Arial, sans-serif; 
-    font-size: 24px; 
-    font-weight: bold; 
-	text-decoration: underline;
-}
-.huge-bold-text {
-    font-family: Arial, sans-serif; 
-    font-size: 64px; 
-    font-weight: bold; 
-}
-
-
 
 
 
@@ -107,13 +92,6 @@ h2::after {
 
 
 
-
-.QR {
-    width: 250px; 
-    height: auto;
-    display: block; 
-    margin: 0 auto; 
-}
 .text-box-size {
     width: 100%;
     max-width: 500px;
