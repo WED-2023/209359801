@@ -3,10 +3,10 @@
 body {
 	direction: ltr;
 	font-family: "chiller", serif;
-	background-image: url("images/Bumi\ chalenge\ Aang.jpg"); /* מציין את מיקום התמונה */
-	background-size: cover; /* מוודא שהתמונה תכסה את כל הרקע */
-	background-position: center; /* ממקם את התמונה במרכז הדף */
-	background-attachment: fixed; /* קובע שהתמונה תישאר במקום כאשר גוללים */
+	background-image: url("images/Bumi\ chalenge\ Aang.jpg"); 
+	background-size: cover; 
+	background-position: center; 
+	background-attachment: fixed; 
   }
 
   .logo {
@@ -23,11 +23,6 @@ body {
 	object-fit: cover;
   }
 
-  .section {
-	padding: 100px 20px;
-	text-align: center;
-
-  }
   .White-background{
 	max-width: 800px;
 	margin: 0 auto;
@@ -72,6 +67,7 @@ body {
 	font-size: 30px;
 	color: white;
 	padding: 40px;
+	text-align: center;
 }
 h2{
 	font-weight: bold;
