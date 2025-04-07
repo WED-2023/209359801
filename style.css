@@ -103,7 +103,7 @@ button{
 .image {
     width: 400px; 
     height: auto; 
-	border: 5px solid #000;
+	border: 5px solid white;
 	margin: 10px;
 }
 
@@ -155,5 +155,22 @@ button{
     box-sizing: border-box;
 	background-color: lightblue;  
 }
+
+.horizontal-scroll {
+	display: flex;
+	overflow-x: auto;
+	gap: 10px;
+	padding: 10px;
+	scroll-snap-type: x mandatory; /* חלק מהמכשירים יתפסו תמונה אחת כל פעם */
+  }
+  
+  .horizontal-scroll img {
+	width: 300px;
+	height: auto;
+	flex-shrink: 0;
+	scroll-snap-align: start;
+	border-radius: 10px;
+  }
+  
 
 
