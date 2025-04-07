@@ -114,8 +114,8 @@ button{
 }
 
 .highlight-on-hover:hover {
-    transform: scale(1.05); /* הגדלה קלה */
-    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.3); /* צל שנותן עומק */
+    transform: scale(1.05); 
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.3); 
     cursor: pointer;
 }
 
@@ -161,7 +161,7 @@ button{
 	overflow-x: auto;
 	gap: 10px;
 	padding: 10px;
-	scroll-snap-type: x mandatory; /* חלק מהמכשירים יתפסו תמונה אחת כל פעם */
+	scroll-snap-type: x mandatory; 
   }
   
   .horizontal-scroll img {
